@@ -92,7 +92,7 @@ export const createCompany = /* GraphQL */ `
         items {
           id
           companyID
-          content
+          validations
           createdAt
           updatedAt
         }
@@ -125,7 +125,7 @@ export const updateCompany = /* GraphQL */ `
         items {
           id
           companyID
-          content
+          validations
           createdAt
           updatedAt
         }
@@ -158,7 +158,7 @@ export const deleteCompany = /* GraphQL */ `
         items {
           id
           companyID
-          content
+          validations
           createdAt
           updatedAt
         }
@@ -193,7 +193,7 @@ export const createForm = /* GraphQL */ `
         createdAt
         updatedAt
       }
-      content
+      validations
       createdAt
       updatedAt
     }
@@ -223,7 +223,7 @@ export const updateForm = /* GraphQL */ `
         createdAt
         updatedAt
       }
-      content
+      validations
       createdAt
       updatedAt
     }
@@ -253,7 +253,7 @@ export const deleteForm = /* GraphQL */ `
         createdAt
         updatedAt
       }
-      content
+      validations
       createdAt
       updatedAt
     }
